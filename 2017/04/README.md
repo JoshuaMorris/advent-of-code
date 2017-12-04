@@ -1,5 +1,6 @@
 #--- Day 4: High-Entropy Passphrases ---
 
+![Advent Calendar Day 4][calendar]
 
 #--- Part One ---
 A new system policy has been put in place that requires all accounts to use a **passphrase** instead of simply a pass**word**. A passphrase consists of a series of words (lowercase letters) separated by spaces.
@@ -33,3 +34,5 @@ Under this new system policy, **how many passphrases are valid?**
 That's the right answer! You are **one gold star** closer to debugging the printer.
 
 You have completed Day 4!
+
+[calendar]: https://github.com/JoshuaMorris/advent-of-code/raw/master/2017/04/advent-day-4.png "Advent of Code Day 4"
