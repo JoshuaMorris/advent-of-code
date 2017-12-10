@@ -26,8 +26,6 @@ For example:
 
 Your puzzle answer was `1182`.
 
-**The first half of this puzzle is complete! It provides one gold star: `*`**
-
 ## --- Part Two ---
 
 You notice a progress bar that jumps to 50% completion. Apparently, the door isn't yet satisfied, but it did emit a **star** as encouragement. The instructions change:
@@ -44,8 +42,6 @@ For example:
 
 Your puzzle answer was `1152`.
 
-That's the right answer! You are **one gold star** closer to debugging the printer.
+**Both parts of this puzzle are complete! They provide two gold stars: `**`**
 
-You have completed Day 1! You can Share this victory or Return to Your Advent Calendar.
-
-[calendar]: https://github.com/JoshuaMorris/advent-of-code/raw/master/2017/1/advent-day-1.png "Advent of Code Day 1"
+[calendar]: https://github.com/JoshuaMorris/advent-of-code/raw/master/2017/01/advent-day-1.png "Advent of Code Day 1"
