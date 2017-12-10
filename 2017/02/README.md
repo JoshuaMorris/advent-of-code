@@ -48,4 +48,4 @@ Your puzzle answer was `314`.
 
 **Both parts of this puzzle are complete! They provide two gold stars: `**`** 
 
-[calendar]: https://github.com/JoshuaMorris/advent-of-code/raw/master/2017/01/advent-day-2.png "Advent of Code Day 2"
+[calendar]: https://github.com/JoshuaMorris/advent-of-code/raw/master/2017/02/advent-day-2.png "Advent of Code Day 2"
