@@ -1,5 +1,7 @@
 #--- Day 9: Stream Processing ---
 
+![Advent Calendar Day 9][calendar]
+
 ##--- Part One ---
 
 A large stream blocks your path. According to the locals, it's not safe to cross the stream at the moment because it's full of **garbage**. You look down at the stream; rather than water, you discover that it's a **stream of characters**.
@@ -71,3 +73,5 @@ Your puzzle answer was `4522`.
 That's the right answer! You are **one gold star** closer to debugging the printer.
 
 You have completed Day 9!
+
+[calendar]: https://github.com/JoshuaMorris/advent-of-code/raw/master/2017/09/advent-day-9.png "Advent of Code Day 9"
