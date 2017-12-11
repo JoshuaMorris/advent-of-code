@@ -66,4 +66,8 @@ To prove you've removed it, you need to count all of the characters within the g
 
 **How many non-canceled characters are within the garbage** in your puzzle input?
 
+Your puzzle answer was `4522`.
 
+That's the right answer! You are **one gold star** closer to debugging the printer.
+
+You have completed Day 9!

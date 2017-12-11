@@ -2,17 +2,21 @@
 
 const fs = require('fs');
 
-const input = fs.readFileSync('input.txt', 'utf8').trim();
-
 const clean = (data) => {
   const ignore = /!./g;
   const garbage = /<.*?>/g;
 
   data = data.replace(ignore, '');
 
-  const isCleaned = data.replace(garbage, '').replace(/,/g, '');
+  const isCleaned = data
+    .replace(garbage, '')
+    .replace(/,/g, '');
 
-  return isCleaned;
+  const sizeOfGarbage = data.match(garbage)
+    .map(str => str.length - 2)
+    .reduce((str, len) => str + len, 0);
+
+  return [isCleaned, sizeOfGarbage];
 };
 
 const score = (data) => {
@@ -35,4 +39,8 @@ const score = (data) => {
   return total;
 };
 
-console.log(`Part 1: ${score(clean(input))}`);
+const input = fs.readFileSync('input.txt', 'utf8').trim();
+const [isCleaned, sizeOfGarbage] = clean(input);
+
+console.log(`Part 1: ${score(isCleaned)}`);
+console.log(`Part 2: ${sizeOfGarbage}`);
