@@ -1,6 +1,8 @@
-##--- Day 7: Recursive Circus ---
+# --- Day 7: Recursive Circus ---
 
-# --- Part One ---
+![Advent Calendar Day 7][calendar]
+
+## --- Part One ---
 
 Wandering further through the circuits of the computer, you come upon a tower of programs that have gotten themselves into a bit of trouble. A recursive algorithm has gotten out of hand, and now they're balanced precariously in a large tower.
 
@@ -25,6 +27,7 @@ For example, if your list is the following:
 `cntj (57)`
 ...then you would be able to recreate the structure of the towers that looks like this:
 
+```
                 gyxo
               /     
          ugml - ebii
@@ -42,6 +45,8 @@ tknk --- padx - havc
          fwft - cntj
               \     
                 xhth
+```
+                
 In this example, `tknk` is at the bottom of the tower (the **bottom program**), and is holding up `ugml`, `padx`, and `fwft`. Those programs are, in turn, holding up other programs; in this example, none of those programs are holding up any other programs, and are all the tops of their own towers. (The actual tower balancing in front of you is much larger.)
 
 Before you're ready to help them, you need to make sure your information is correct. **What is the name of the bottom program?**
@@ -52,7 +57,7 @@ Your puzzle answer was `airlri`.
 
 **The first half of this puzzle is complete! It provides one gold star: `*`**
 
-##--- Part Two ---
+## --- Part Two ---
 
 The programs explain the situation: they can't get down. Rather, they **could** get down, if they weren't expending all of their energy trying to keep the tower balanced. Apparently, one program has the **wrong weight**, and until it's fixed, they're stuck here.
 
@@ -74,3 +79,5 @@ Your puzzle answer was `1206`.
 That's the right answer! You are **one gold star** closer to debugging the printer.
 
 You have completed Day 7! 
+
+[calendar]: https://github.com/JoshuaMorris/advent-of-code/raw/master/2017/07/advent-day-7.png "Advent of Code Day 7"
