@@ -1,4 +1,4 @@
-#--- Day 5: A Maze of Twisty Trampolines, All Alike ---
+# --- Day 5: A Maze of Twisty Trampolines, All Alike ---
 
 ![Advent Calendar Day 5][calendar]
 
@@ -32,7 +32,7 @@ Your puzzle answer was `325922`.
 
 **The first half of this puzzle is complete! It provides one gold star: `*`**
 
-##--- Part Two ---
+## --- Part Two ---
 
 Now, the jumps are even stranger: after each jump, if the offset was **three or more**, instead **decrease** it by `1`. Otherwise, increase it by `1` as before.
 

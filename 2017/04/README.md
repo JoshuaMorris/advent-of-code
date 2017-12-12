@@ -1,8 +1,8 @@
-#--- Day 4: High-Entropy Passphrases ---
+# --- Day 4: High-Entropy Passphrases ---
 
 ![Advent Calendar Day 4][calendar]
 
-#--- Part One ---
+## --- Part One ---
 A new system policy has been put in place that requires all accounts to use a **passphrase** instead of simply a pass**word**. A passphrase consists of a series of words (lowercase letters) separated by spaces.
 
 To ensure security, a valid passphrase must contain no duplicate words.
@@ -18,7 +18,7 @@ Your puzzle answer was `451`.
 
 **The first half of this puzzle is complete! It provides one gold star: `*`**
 
-#--- Part Two ---
+## --- Part Two ---
 
 For added security, yet another system policy has been put in place. Now, a valid passphrase must contain no two words that are anagrams of each other - that is, a passphrase is invalid if any word's letters can be rearranged to form any other word in the passphrase.
 

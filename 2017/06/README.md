@@ -1,4 +1,4 @@
-#--- Day 6: Memory Reallocation ---
+# --- Day 6: Memory Reallocation ---
 
 ![Advent Calendar Day 6][calendar]
 
@@ -27,7 +27,7 @@ Your puzzle answer was `3156`.
 
 **The first half of this puzzle is complete! It provides one gold star: `*`**
 
-##--- Part Two ---
+## --- Part Two ---
 
 Out of curiosity, the debugger would also like to know the size of the loop: starting from a state that has already been seen, how many block redistribution cycles must be performed before that same state is seen again?
 
