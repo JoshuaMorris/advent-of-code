@@ -46,4 +46,4 @@ That's the right answer! You are **one gold star** closer to debugging the print
 
 You have completed Day 5!
 
-[calendar]: https://github.com/JoshuaMorris/advent-of-code/raw/master/2017/05/advent-day-1.png "Advent of Code Day 5"
+[calendar]: https://github.com/JoshuaMorris/advent-of-code/raw/master/2017/05/advent-day-5.png "Advent of Code Day 5"
