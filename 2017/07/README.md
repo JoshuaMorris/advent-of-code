@@ -12,19 +12,22 @@ You offer to help, but first you need to understand the structure of these tower
 
 For example, if your list is the following:
 
-`pbga (66)                      `
-`xhth (57)`
-`ebii (61)`
-`havc (66)`
-`ktlj (57)`
-`fwft (72) -> ktlj, cntj, xhth`
-`qoyq (66)`
-`padx (45) -> pbga, havc, qoyq`
-`tknk (41) -> ugml, padx, fwft`
-`jptl (61)`
-`ugml (68) -> gyxo, ebii, jptl`
-`gyxo (61)`
-`cntj (57)`
+```
+pbga (66)                      
+xhth (57)
+ebii (61)
+havc (66)
+ktlj (57)
+fwft (72) -> ktlj, cntj, xhth
+qoyq (66)
+padx (45) -> pbga, havc, qoyq
+tknk (41) -> ugml, padx, fwft
+jptl (61)
+ugml (68) -> gyxo, ebii, jptl
+gyxo (61)
+cntj (57)
+```
+
 ...then you would be able to recreate the structure of the towers that looks like this:
 
 ```
@@ -70,6 +73,7 @@ However, for `tknk` to be balanced, each of the programs standing on its disc an
 - `ugml` + (`gyxo` + `ebii` + `jptl`) = 68 + (61 + 61 + 61) = 251
 - `padx` + (`pbga` + `havc` + `qoyq`) = 45 + (66 + 66 + 66) = 243
 - `fwft` + (`ktlj` + `cntj` + `xhth`) = 72 + (57 + 57 + 57) = 243
+
 As you can see, `tknk`'s disc is unbalanced: `ugml`'s stack is heavier than the other two. Even though the nodes above `ugml` are balanced, `ugml` itself is too heavy: it needs to be 8 units lighter for its stack to weigh `243` and keep the towers balanced. If this change were made, its weight would be `60`.
 
 Given that exactly one program is the wrong weight, **what would its weight need to be** to balance the entire tower?
