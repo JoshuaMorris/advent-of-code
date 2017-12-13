@@ -1,8 +1,8 @@
-#--- Day 9: Stream Processing ---
+# --- Day 9: Stream Processing ---
 
 ![Advent Calendar Day 9][calendar]
 
-##--- Part One ---
+## --- Part One ---
 
 A large stream blocks your path. According to the locals, it's not safe to cross the stream at the moment because it's full of **garbage**. You look down at the stream; rather than water, you discover that it's a **stream of characters**.
 
@@ -52,7 +52,7 @@ Your puzzle answer was `10800`.
 
 **The first half of this puzzle is complete! It provides one gold star: `*`**
 
-##---Part Two ---
+## ---Part Two ---
 
 Now, you're ready to remove the garbage.
 
