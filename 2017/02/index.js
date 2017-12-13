@@ -37,13 +37,3 @@ console.log(
     soln2
   )}`
 );
-
-console.assert(parse(
-  input,
-  soln1
-) === 53978);
-
-console.assert(parse(
-  input,
-  soln2
-) === 314);
