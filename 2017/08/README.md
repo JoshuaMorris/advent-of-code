@@ -1,4 +1,4 @@
-#--- Day 8: I Heard You Like Registers ---
+# --- Day 8: I Heard You Like Registers ---
 
 ![Advent Calendar Day 8][calendar]
 
@@ -8,10 +8,12 @@ You receive a signal directly from the CPU. Because of your recent assistance wi
 
 Each instruction consists of several parts: the register to modify, whether to increase or decrease that register's value, the amount by which to increase or decrease it, and a condition. If the condition fails, skip the instruction without modifying the register. The registers all start at 0. The instructions look like this:
 
-`b inc 5 if a > 1`<br/>
-`a inc 1 if b < 5`<br/>
-`c dec -10 if a >= 1`<br/>
-`c inc -20 if c == 10`<br/>
+```
+b inc 5 if a > 1
+a inc 1 if b < 5
+c dec -10 if a >= 1
+c inc -20 if c == 10
+```
 
 These instructions would be processed as follows:
 
@@ -32,9 +34,11 @@ Your puzzle answer was `4877`.
 
 **The first half of this puzzle is complete! It provides one gold star: `*`**
 
-##--- Part Two ---
+## --- Part Two ---
 
 To be safe, the CPU also needs to know **the highest value held in any register during this process** so that it can decide how much memory to allocate to these operations. For example, in the above instructions, the highest value ever held was `10` (in register `c` after the third instruction was evaluated).
+
+Your puzzle answer was `5471`.
 
 That's the right answer! You are **one gold star** closer to debugging the printer.
 
